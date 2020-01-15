@@ -14,7 +14,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: 79618ffee94d75b298dd65c9ccd6fb6bbc7c05db
+  github_token: $GITHUB_TOKEN
   local_dir: dist/TouristGuide
   on:
     branch: master
